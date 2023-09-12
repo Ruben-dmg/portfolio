@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://kit.fontawesome.com/68df296dc2.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="app.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+    <script src="https://code.iconify.design/3/3.0.1/iconify.min.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <h1 class="logo"><span>R</span>ubén Hernández</h1>
+            <ul class="menu">
+                <li><a href="#container">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#Project">Projects</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <H1><span>Hi, I'm Rubén!</span></H1>
+            <div class="center">
+                <h5><span class="auto-type"></span></h5>
+            </div>
+        </div>
+
+
+        <script>
+            var typed = new Typed(".auto-type", {
+                strings: ["Developer Web/App", "UX/UI Designer", "Graphic Designer",],
+                typeSpeed: 80,
+                backSpeed: 50,
+                loop: true
+            })
+        </script>
+
+    </div>
+
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Asset/profile-1.png" class="profile">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        Hi, I'm Ruben, a passionate 22 year old with a background in frontend, graphic design and UX/UI.
+                        My holistic approach
+                        allows me to bring holistic solutions and collaborate in interdisciplinary teams. With a
+                        user-centric approach, I aspire
+                        to design interfaces that captivate and solve.</p>
+
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('contacts')">Contact Me</p>
+                        <p class="tab-links" onclick="opentab ('resume')"> Resume</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Languages</span><br>Javascript, JSX, Typescript</li>
+                            <li><span>FrontEnd Frameworks/Libraries</span><br>React, Angular, Vue, Node.js, React
+                                Native, Vite, Bootstrap, Tailwind,
+                            </li>
+                            <li><span>Additional Web Development Tools</span><br>HTML, CSS, WordPress, Elementor,
+                                WooCommerce</li>
+                            <li><span>Design </span><br>Figma, Adobe XD, Photoshop, Illustrator, InDesign</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="language">
+                        <ul>
+                            <div class="skills"> <iconify-icon icon="mdi:git"></iconify-icon></div>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="contacts">
+                        <a class="social-icon" href="https://www.linkedin.com/in/rubén-hernández-6a33b1289/"
+                            target="_blank">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a>
+                        <a class="icon" href="https://github.com/Ruben-dmg" target="_blank">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a>
+                        <a class="email" href="mailto:masruben026@gmail.com">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </a>
+                    </div>
+                    <div class="tab-contents" id="resume">
+                        <a class="resume-pdf" href="Asset/CV.pdf" target="_blank">
+                            <ul>
+                                <li>View Resume</li>
+                            </ul>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="Project">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="services-list">
+
+                <div>
+                    <img src="Asset/Proyects/personal.png" alt="">
+
+                    <h2>Personal Shopper</h2>
+                    <p>
+                        This page was designed for a French real estate company
+
+                    </p>
+
+                    <a href="https://agenceimmobiliereorihuelacosta.es" target="_blank">View more</a>
+                </div>
+
+                <div>
+                    <img src="Asset/Proyects/castillo.png" alt="">
+
+                    <h2>Castillo mtm</h2>
+                    <p>
+                        lorem lorem lorem lorem lorem lorem lorem
+
+                    </p>
+
+                    <a href="https://www.castillomtm.com" target="_blank">View more</a>
+                </div>
+
+                <div>
+                    <img src="Asset/Proyects/Roque.png" alt="">
+
+                    <h2>Óptica San Roque</h2>
+                    <p>
+                        lorem lorem lorem lorem lorem lorem lorem
+
+                    </p>
+
+                    <a href="https://opticasanroque.com" target="_blank">View more</a>
+                </div>
+
+                <div>
+                    <img src="Asset/Proyects/lennon.png" alt="">
+
+                    <h2>Las Gafas de Lennon</h2>
+                    <p>
+                        lorem lorem lorem lorem lorem lorem lorem
+
+                    </p>
+
+                    <a href="https://lasgafasdelennon.eu" target="_blank">View more</a>
+                </div>
+
+                <div>
+                    <img src="Asset/Proyects/ocem.png" alt="">
+
+                    <h2>OCEM</h2>
+                    <p>
+                        lorem lorem lorem lorem lorem lorem lorem
+
+                    </p>
+
+                    <a href="https://panelsolarmurcia.es" target="_blank">View more</a>
+                </div>
+
+                <div>
+                    <img src="Asset/Proyects/surf.png" alt="">
+
+                    <h2>Blue Circle</h2>
+                    <p>
+                        lorem lorem lorem lorem lorem lorem lorem
+
+                    </p>
+
+                    <a href="https://escuela-de-surf-campoamor.es" target="_blank">View more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p><i class="fa-regular fa-copyright"></i> Rubén Hernández, 2023</p>
+    </div>
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link")
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+    </script>
+
+</body>
+
+</html>
